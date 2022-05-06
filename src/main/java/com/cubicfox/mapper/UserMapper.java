@@ -1,11 +1,14 @@
 package com.cubicfox.mapper;
 
+import org.springframework.stereotype.Component;
+
 import com.cubicfox.model.domain.Address;
 import com.cubicfox.model.domain.Company;
 import com.cubicfox.model.domain.Geo;
 import com.cubicfox.model.domain.User;
 import com.cubicfox.model.dto.UserDto;
 
+@Component
 public class UserMapper {
 
 	public UserDto toDto(User user) {
